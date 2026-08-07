@@ -10,8 +10,18 @@ We mapped the areas within a 15-minute walk, around 1,200 metres, of Greater Man
 
 Even after combining the two networks and removing overlaps, more than 60% of buildings, around 740,000, remain beyond a comfortable walk of a tram or rail station.
 
+<p align="center">
+  <img src="images/TRAM - W MAP_Updated.png" width="700" alt="Automated Plotting Interface Inputs">
+</p>
+
+
 Figure 1. 15-min walking catchment from Tram stations (August 2026, By author)
- 
+
+<p align="center">
+  <img src="images/RAIL - W MAP_updated.png" width="700" alt="Automated Plotting Interface Inputs">
+</p>
+
+
 Figure 2. 15-min walking catchment from Rail stations (August 2026, By author)
 
 *Bus*
@@ -19,6 +29,10 @@ Figure 2. 15-min walking catchment from Rail stations (August 2026, By author)
 The bus network provides much wider local coverage (Figure 3). Around 99% of Greater Manchester’s buildings are within an eight-minute walk of a bus stop, creating a dense web of access across the region.
 
 However, being close to a stop does not always mean having a frequent or reliable service. The challenge is therefore not only to improve buses, but also to connect more people to the tram and rail networks.
+
+<p align="center">
+  <img src="images/BUS - W MAP.png" width="700" alt="Automated Plotting Interface Inputs">
+</p>
  
 Figure 3. 15 – min walking catchment for bus network (August 2026, By author)
 
@@ -29,9 +43,17 @@ To test how cycling could expand access, we mapped a hypothetical scenario in wh
 Walking limits each station to a relatively small local catchment. Cycling changes the picture dramatically. At a modest speed of 15 km/h, a 15-minute ride brings many more neighbourhoods within reach of tram and rail.
 
 A home beyond comfortable walking distance may be only a ten-minute cycle from a station. In this way, safe cycling routes could act as feeders to the public transport network, greatly increasing the value of existing tram (Figure 4) and rail (Figure 5) infrastructure without laying new tracks.
- 
+
+<p align="center">
+  <img src="images/TRAM - C MAP.png" width="700" alt="Automated Plotting Interface Inputs">
+</p>
+
 Figure 4. 15-min cycling catchment from Tram stations (August 2026, By author)
- 
+
+<p align="center">
+  <img src="images/RAIL - C MAP.png" width="700" alt="Automated Plotting Interface Inputs">
+</p>
+
 Figure 5. 15-min cycling catchment from Rail stations (August 2026, By author)
 
 **Missing links**
@@ -41,10 +63,22 @@ Greater Manchester’s current cycle network remains fragmented (Figure 6). Some
 For everyday cyclists, a route is only as safe as its weakest point. If a parent, student or older resident feels exposed at one part of the journey, cycling may no longer feel like a realistic option.
 
 The challenge is therefore to build a safe and connected cycling network. For the Bee Network to reach more people, cycling must become an integral part of how residents access tram and rail stations.
+
+<p align="center">
+  <img src="images/CYCLE MAP_updated.png" width="700" alt="Automated Plotting Interface Inputs">
+</p>
  
 Figure 6. Existing non-continuous and scattered cycling network with greater Manchester (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/08/2026)
- 
+
+<p align="center">
+  <img src="images/cycle_network_call_out.png" width="700" alt="Automated Plotting Interface Inputs">
+</p>
+
 Figure 6.1. Closer view of broken cycle network – 1, near Leigh – Wigan Council (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/08/2026)
+
+<p align="center">
+  <img src="images/cycle_network_call_out 2.png" width="700" alt="Automated Plotting Interface Inputs">
+</p>
 
 Figure 6.2. Closer view of broken cycle network – 2, near Oldham (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/08/2026)
 
@@ -56,7 +90,7 @@ Park-and-ride, cycle hubs and feeder buses can all extend station access, but ea
 
 **How we developed the data**
 
-The accessibility analysis was developed using openly available data (Mapping GM) in QGIS with the custom network analysis toolkit developed with a similar logic to QNEAT3 and Dijkstra’s algorithm. To improve the precision of accessibility estimates, building entrances were generated using our custom tool, #EntranceSnapper, allowing journeys to start from realistic access points rather than building centroids.
+The accessibility analysis was developed using openly available data (Mapping GM) in QGIS with the custom network analysis toolkit developed with a similar logic to QNEAT3 and Dijkstra’s algorithm. To improve the precision of accessibility estimates, building entrances were generated using our custom tool, [Entrance Snapper](https://github.com/Complexity-Planning-Urbanism-CPUlab-MSA/EntranceSnapper) , allowing journeys to start from realistic access points rather than building centroids.
 
 Walking accessibility was calculated using footpath data custom-made from the existing road network to map actual pedestrian movement to the possible level of detail, with network distances used to represent the routes people are most likely to take. Walking access data was joined to building footprints, which allowed computation of building coverages. 
 
