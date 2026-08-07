@@ -31,7 +31,7 @@ The bus network provides much wider local coverage (Figure 3). Around 99% of Gre
 However, being close to a stop does not always mean having a frequent or reliable service. The challenge is therefore not only to improve buses, but also to connect more people to the tram and rail networks.
 
 <p align="center">
-  <img src="images/BUS - W MAP.png" width="700" alt="Automated Plotting Interface Inputs">
+  <img src="images/BUS_W_MAP.png" width="700" alt="Automated Plotting Interface Inputs">
 </p>
  
 Figure 3. 15 – min walking catchment for bus network (August 2026, By author)
@@ -65,10 +65,10 @@ For everyday cyclists, a route is only as safe as its weakest point. If a parent
 The challenge is therefore to build a safe and connected cycling network. For the Bee Network to reach more people, cycling must become an integral part of how residents access tram and rail stations.
 
 <p align="center">
-  <img src="images/CYCLE MAP_updated.png" width="700" alt="Automated Plotting Interface Inputs">
+  <img src="images/CYCLE_MAP_updated.png" width="700" alt="Automated Plotting Interface Inputs">
 </p>
  
-Figure 6. Existing non-continuous and scattered cycling network with greater Manchester (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/08/2026)
+Figure 6. Existing non-continuous and scattered cycling network with Greater Manchester (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/08/2026)
 
 <p align="center">
   <img src="images/cycle_network_call_out.png" width="700" alt="Automated Plotting Interface Inputs">
@@ -90,7 +90,7 @@ Park-and-ride, cycle hubs and feeder buses can all extend station access, but ea
 
 **How we developed the data**
 
-The accessibility analysis was developed using openly available data (Mapping GM) in QGIS with the custom network analysis toolkit developed with a similar logic to QNEAT3 and Dijkstra’s algorithm. To improve the precision of accessibility estimates, building entrances were generated using our custom tool, [Entrance Snapper](https://github.com/Complexity-Planning-Urbanism-CPUlab-MSA/EntranceSnapper) , allowing journeys to start from realistic access points rather than building centroids.
+The accessibility analysis was developed using openly available data (Mapping GM) in QGIS with the custom network analysis toolkit developed with a similar logic to QNEAT3 and Dijkstra’s algorithm. To improve the precision of accessibility estimates, building entrances were generated using our custom tool, [Entrance Snapper](https://github.com/Complexity-Planning-Urbanism-CPUlab-MSA/EntranceSnapper), allowing journeys to start from realistic access points rather than building centroids.
 
 Walking accessibility was calculated using footpath data custom-made from the existing road network to map actual pedestrian movement to the possible level of detail, with network distances used to represent the routes people are most likely to take. Walking access data was joined to building footprints, which allowed computation of building coverages. 
 
