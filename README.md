@@ -42,11 +42,11 @@ For everyday cyclists, a route is only as safe as its weakest point. If a parent
 
 The challenge is therefore to build a safe and connected cycling network. For the Bee Network to reach more people, cycling must become an integral part of how residents access tram and rail stations.
  
-Figure 6. Existing non-continuous and scattered cycling network with greater Manchester (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/082026)
+Figure 6. Existing non-continuous and scattered cycling network with greater Manchester (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/08/2026)
  
-Figure 6.1. Closer view of broken cycle network – 1, near Leigh – Wigan Council (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/082026)
+Figure 6.1. Closer view of broken cycle network – 1, near Leigh – Wigan Council (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/08/2026)
 
-Figure 6.2. Closer view of broken cycle network – 2, near Oldham (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/082026)
+Figure 6.2. Closer view of broken cycle network – 2, near Oldham (August 2026, Mapping GM accessed at: https://mappinggm.org.uk/data/ on 01/08/2026)
 
 **Extending the reach of the Bee Network**
 
